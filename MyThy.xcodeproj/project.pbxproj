@@ -15,6 +15,12 @@
 		282906221E3D468C00C3A43E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282906201E3D468C00C3A43E /* LaunchScreen.storyboard */; };
 		2829062D1E3D468C00C3A43E /* MyThyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2829062C1E3D468C00C3A43E /* MyThyTests.swift */; };
 		282906381E3D468C00C3A43E /* MyThyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282906371E3D468C00C3A43E /* MyThyUITests.swift */; };
+		282906461E3D48C100C3A43E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 282906451E3D48C100C3A43E /* GoogleService-Info.plist */; };
+		2829064C1E3D4C0F00C3A43E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2829064B1E3D4C0F00C3A43E /* LoginViewController.swift */; };
+		2829064E1E3D549100C3A43E /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2829064D1E3D549100C3A43E /* ThirdViewController.swift */; };
+		33DEC740AFEDB680B214E79E /* Pods_MyThyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5275F306894258821D9EAA /* Pods_MyThyTests.framework */; };
+		9412957C1E2C956732546BFE /* Pods_MyThyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B519CA26FA790FE81619E4 /* Pods_MyThyUITests.framework */; };
+		D0829B5FC1734477199BFFE2 /* Pods_MyThy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E361DD0BF5251A8C3E439A /* Pods_MyThy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16E361DD0BF5251A8C3E439A /* Pods_MyThy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyThy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		282906121E3D468C00C3A43E /* MyThy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyThy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		282906151E3D468C00C3A43E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		282906171E3D468C00C3A43E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +56,17 @@
 		282906331E3D468C00C3A43E /* MyThyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyThyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		282906371E3D468C00C3A43E /* MyThyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyThyUITests.swift; sourceTree = "<group>"; };
 		282906391E3D468C00C3A43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282906451E3D48C100C3A43E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2829064B1E3D4C0F00C3A43E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2829064D1E3D549100C3A43E /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		689ABBBC33C8C8142F65A386 /* Pods-MyThyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyThyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyThyTests/Pods-MyThyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8334F84E46250B7938BC5FCF /* Pods-MyThy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyThy.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyThy/Pods-MyThy.release.xcconfig"; sourceTree = "<group>"; };
+		95B519CA26FA790FE81619E4 /* Pods_MyThyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyThyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D549B8301CA96364980242 /* Pods-MyThyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyThyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyThyUITests/Pods-MyThyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B19B01B67C77EFDE45DB5C19 /* Pods-MyThy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyThy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyThy/Pods-MyThy.debug.xcconfig"; sourceTree = "<group>"; };
+		CBEFCBAA108F7F839AA8AE5B /* Pods-MyThyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyThyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyThyUITests/Pods-MyThyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF5275F306894258821D9EAA /* Pods_MyThyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyThyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D001A69CF660627A962D5D /* Pods-MyThyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyThyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyThyTests/Pods-MyThyTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0829B5FC1734477199BFFE2 /* Pods_MyThy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33DEC740AFEDB680B214E79E /* Pods_MyThyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9412957C1E2C956732546BFE /* Pods_MyThyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				2829062B1E3D468C00C3A43E /* MyThyTests */,
 				282906361E3D468C00C3A43E /* MyThyUITests */,
 				282906131E3D468C00C3A43E /* Products */,
+				E0838464424E278E5DF87ACB /* Pods */,
+				4D8F5EFCDDE636DCEE5C7C45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +122,8 @@
 		282906141E3D468C00C3A43E /* MyThy */ = {
 			isa = PBXGroup;
 			children = (
+				2829064B1E3D4C0F00C3A43E /* LoginViewController.swift */,
+				282906451E3D48C100C3A43E /* GoogleService-Info.plist */,
 				282906151E3D468C00C3A43E /* AppDelegate.swift */,
 				282906171E3D468C00C3A43E /* FirstViewController.swift */,
 				282906191E3D468C00C3A43E /* SecondViewController.swift */,
@@ -106,6 +131,7 @@
 				2829061E1E3D468C00C3A43E /* Assets.xcassets */,
 				282906201E3D468C00C3A43E /* LaunchScreen.storyboard */,
 				282906231E3D468C00C3A43E /* Info.plist */,
+				2829064D1E3D549100C3A43E /* ThirdViewController.swift */,
 			);
 			path = MyThy;
 			sourceTree = "<group>";
@@ -128,6 +154,29 @@
 			path = MyThyUITests;
 			sourceTree = "<group>";
 		};
+		4D8F5EFCDDE636DCEE5C7C45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16E361DD0BF5251A8C3E439A /* Pods_MyThy.framework */,
+				CF5275F306894258821D9EAA /* Pods_MyThyTests.framework */,
+				95B519CA26FA790FE81619E4 /* Pods_MyThyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0838464424E278E5DF87ACB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B19B01B67C77EFDE45DB5C19 /* Pods-MyThy.debug.xcconfig */,
+				8334F84E46250B7938BC5FCF /* Pods-MyThy.release.xcconfig */,
+				689ABBBC33C8C8142F65A386 /* Pods-MyThyTests.debug.xcconfig */,
+				E8D001A69CF660627A962D5D /* Pods-MyThyTests.release.xcconfig */,
+				CBEFCBAA108F7F839AA8AE5B /* Pods-MyThyUITests.debug.xcconfig */,
+				97D549B8301CA96364980242 /* Pods-MyThyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2829063C1E3D468C00C3A43E /* Build configuration list for PBXNativeTarget "MyThy" */;
 			buildPhases = (
+				602424447DD26B7F9EA994F2 /* [CP] Check Pods Manifest.lock */,
 				2829060E1E3D468C00C3A43E /* Sources */,
 				2829060F1E3D468C00C3A43E /* Frameworks */,
 				282906101E3D468C00C3A43E /* Resources */,
+				1CB3B5C70699DF80EF85C9FD /* [CP] Embed Pods Frameworks */,
+				BB93EB8FA636E7BD23003312 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2829063F1E3D468C00C3A43E /* Build configuration list for PBXNativeTarget "MyThyTests" */;
 			buildPhases = (
+				27F9704AF4DD9F473CF6DF16 /* [CP] Check Pods Manifest.lock */,
 				282906241E3D468C00C3A43E /* Sources */,
 				282906251E3D468C00C3A43E /* Frameworks */,
 				282906261E3D468C00C3A43E /* Resources */,
+				343732E1CFB114860BAD5DBF /* [CP] Embed Pods Frameworks */,
+				68ACCB34D9CC5725DF27824B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 282906421E3D468C00C3A43E /* Build configuration list for PBXNativeTarget "MyThyUITests" */;
 			buildPhases = (
+				20D3764D3209150077530283 /* [CP] Check Pods Manifest.lock */,
 				2829062F1E3D468C00C3A43E /* Sources */,
 				282906301E3D468C00C3A43E /* Frameworks */,
 				282906311E3D468C00C3A43E /* Resources */,
+				B1DD6A166A78343C21211D3B /* [CP] Embed Pods Frameworks */,
+				B4ED89E87B9C707C67D06465 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				282906221E3D468C00C3A43E /* LaunchScreen.storyboard in Resources */,
+				282906461E3D48C100C3A43E /* GoogleService-Info.plist in Resources */,
 				2829061F1E3D468C00C3A43E /* Assets.xcassets in Resources */,
 				2829061D1E3D468C00C3A43E /* Main.storyboard in Resources */,
 			);
@@ -260,12 +319,152 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CB3B5C70699DF80EF85C9FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyThy/Pods-MyThy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20D3764D3209150077530283 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		27F9704AF4DD9F473CF6DF16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		343732E1CFB114860BAD5DBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyThyTests/Pods-MyThyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		602424447DD26B7F9EA994F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		68ACCB34D9CC5725DF27824B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyThyTests/Pods-MyThyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1DD6A166A78343C21211D3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyThyUITests/Pods-MyThyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4ED89E87B9C707C67D06465 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyThyUITests/Pods-MyThyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB93EB8FA636E7BD23003312 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyThy/Pods-MyThy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2829060E1E3D468C00C3A43E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2829064C1E3D4C0F00C3A43E /* LoginViewController.swift in Sources */,
 				2829061A1E3D468C00C3A43E /* SecondViewController.swift in Sources */,
+				2829064E1E3D549100C3A43E /* ThirdViewController.swift in Sources */,
 				282906161E3D468C00C3A43E /* AppDelegate.swift in Sources */,
 				282906181E3D468C00C3A43E /* FirstViewController.swift in Sources */,
 			);
@@ -417,6 +616,7 @@
 		};
 		2829063D1E3D468C00C3A43E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B19B01B67C77EFDE45DB5C19 /* Pods-MyThy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3VA9LD8KWM;
@@ -430,6 +630,7 @@
 		};
 		2829063E1E3D468C00C3A43E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8334F84E46250B7938BC5FCF /* Pods-MyThy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3VA9LD8KWM;
@@ -443,6 +644,7 @@
 		};
 		282906401E3D468C00C3A43E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689ABBBC33C8C8142F65A386 /* Pods-MyThyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +660,7 @@
 		};
 		282906411E3D468C00C3A43E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D001A69CF660627A962D5D /* Pods-MyThyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +676,7 @@
 		};
 		282906431E3D468C00C3A43E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBEFCBAA108F7F839AA8AE5B /* Pods-MyThyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 3VA9LD8KWM;
@@ -487,6 +691,7 @@
 		};
 		282906441E3D468C00C3A43E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97D549B8301CA96364980242 /* Pods-MyThyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 3VA9LD8KWM;
@@ -518,6 +723,7 @@
 				2829063E1E3D468C00C3A43E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2829063F1E3D468C00C3A43E /* Build configuration list for PBXNativeTarget "MyThyTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +732,7 @@
 				282906411E3D468C00C3A43E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		282906421E3D468C00C3A43E /* Build configuration list for PBXNativeTarget "MyThyUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +741,7 @@
 				282906441E3D468C00C3A43E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
