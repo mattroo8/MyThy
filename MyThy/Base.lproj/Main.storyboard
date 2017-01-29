@@ -140,7 +140,7 @@
                                 </constraints>
                                 <state key="normal" title="Login"/>
                                 <connections>
-                                    <segue destination="49e-Tb-3d3" kind="show" id="jbQ-E1-tLi"/>
+                                    <segue destination="49e-Tb-3d3" kind="show" identifier="loginComplete" id="jbQ-E1-tLi"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MyThy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nCN-2B-2p8">
@@ -149,7 +149,7 @@
                                     <constraint firstAttribute="height" constant="26" id="4Vc-5z-zgA"/>
                                     <constraint firstAttribute="width" constant="67" id="Ic3-Zp-uFQ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -168,6 +168,10 @@
                             <constraint firstItem="Ldc-BH-gwh" firstAttribute="leading" secondItem="gVz-FY-pdY" secondAttribute="leadingMargin" constant="97" id="zGo-to-Mxe"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="passwordTextField" destination="09k-1b-sPL" id="eHk-tl-IMi"/>
+                        <outlet property="userNameTextField" destination="Ldc-BH-gwh" id="guN-vL-IqI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x06-y8-XUC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
